@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <form action="" method="post">
+            <p class="form__name">Задать вопрос</p>
+            <input type="text" class="form__input" placeholder="Фамилия Имя Отчество *" required pattern="^[А-Яа-яЁё\s\-]+$">
+            <input type="tel" class="form__input" placeholder="Телефон *" required pattern="^[0-9\+\s\-]+$">
+            <input type="email" class="form__input" placeholder="Email">
+            <button class="form__button">ОТПРАВИТЬ ЗАПРОС</button>
+        </form>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
